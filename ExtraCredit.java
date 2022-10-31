@@ -9,6 +9,19 @@ public class ExtraCredit {
             System.out.println("round "+ elem + " out of 3");
             //start coding in the box
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+            int a = 3;
+            int b = 5;
+            int c = 8;
+            System.out.println("The product of these numbers is: " + (a * b * c));
+            System.out.println("The sum of these numbers is: " + (a + b + c));
+            System.out.println("Guess the first number: ");
+            int d = Integer.parseInt(in.nextLine());
+            System.out.println("Guess the second number: ");
+            int f = Integer.parseInt(in.nextLine());
+            System.out.println("Guess the first number: ");
+            int g = Integer.parseInt(in.nextLine());
+
+
 
 
             
@@ -18,7 +31,7 @@ public class ExtraCredit {
             
             
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-            if(ExtraCredit.check()){ // fill the check() with the correct varibles
+            if(ExtraCredit.check(a, b, c, d, f, g)){ // fill the check() with the correct varibles
             // DO NOT TOUCH ANYTHING BELOW THIS
                 tc++; 
             }
